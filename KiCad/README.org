@@ -1,0 +1,21 @@
+#+TITLE: DriveShield v1.8 initial native KiCad import
+#+DATE: 2026-09-27
+
+Open DriveShield_v1_8.kicad_pro in KiCad 10.0.1 or later.
+
+This is an inspection/migration copy of the unchanged upstream EasyEDA design, not a fabrication release. Read ../Design/DriveShield_pinout.org (or its HTML export) before using it.
+
+* Validation
+- Schematic loaded in the native editor and exported to PDF and XML netlist.
+- PCB imported with the native EasyEDA Standard importer; importer reports zero errors/warnings.
+- All 301 source pad instances, including standalone pads, retain their pad number and net name in the imported PCB (pad-net-audit.json).
+- ERC: 439 findings. Schematic references, pin electrical types, library assignments and dangling source labels need work.
+- PCB DRC completed outside the sandbox: 1322 findings, including 862 errors and 460 warnings; zero unconnected items. Zero unconnected items does not establish schematic/PCB parity.
+- Footprints and schematic symbols have not been reconciled for safe Update PCB from Schematic.
+- Original circuit and original source files were not modified.
+
+* Reproduction
+- Source commit: 22b4c5506e67aa473017a09c13aa4fd4a453504b.
+- PCB: kicad-cli pcb import ../EasyEDA/PCB_pcb_drive_2026-08-14.json --output DriveShield_v1_8.kicad_pcb.
+- Schematic: in standalone Schematic Editor, File > Import > Non-KiCad Schematic; select ../EasyEDA/SCH_SimpleFOC-Drive_2026-08-14.json; save as DriveShield_v1_8.kicad_sch in this directory.
+- Import creates embedded schematic symbols; shared symbol/footprint libraries still require migration work.

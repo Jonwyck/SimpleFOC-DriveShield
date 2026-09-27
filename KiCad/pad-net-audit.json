@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "22b4c5506e67aa473017a09c13aa4fd4a453504b",
+  "source_component_footprints": 55,
+  "source_standalone_pad_footprints": 57,
+  "imported_footprints": 112,
+  "pad_instances_checked": 301,
+  "pad_net_mismatches": [],
+  "scope": "Checks PCB pad numbers and assigned net names, including standalone pads. Does not establish schematic/PCB parity, copper connectivity, clearances, or fabrication readiness."
+}

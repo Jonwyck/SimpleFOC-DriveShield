@@ -1,0 +1,123 @@
+{
+  "errors": [],
+  "layer_mapping": {
+    "3DModel": {
+      "kicad_layer": "F.Fab",
+      "method": "auto"
+    },
+    "B.Adhesive": {
+      "kicad_layer": "B.Adhes",
+      "method": "auto"
+    },
+    "B.Courtyard": {
+      "kicad_layer": "B.CrtYd",
+      "method": "auto"
+    },
+    "BoardOutLine": {
+      "kicad_layer": "Edge.Cuts",
+      "method": "auto"
+    },
+    "BottomAssembly": {
+      "kicad_layer": "B.Fab",
+      "method": "auto"
+    },
+    "BottomLayer": {
+      "kicad_layer": "B.Cu",
+      "method": "auto"
+    },
+    "BottomPasteMaskLayer": {
+      "kicad_layer": "B.Paste",
+      "method": "auto"
+    },
+    "BottomSilkLayer": {
+      "kicad_layer": "B.SilkS",
+      "method": "auto"
+    },
+    "BottomSolderMaskLayer": {
+      "kicad_layer": "B.Mask",
+      "method": "auto"
+    },
+    "ComponentShapeLayer": {
+      "kicad_layer": "User.3",
+      "method": "auto"
+    },
+    "DRCError": {
+      "kicad_layer": "User.1",
+      "method": "auto"
+    },
+    "Document": {
+      "kicad_layer": "Dwgs.User",
+      "method": "auto"
+    },
+    "F.Adhesive": {
+      "kicad_layer": "F.Adhes",
+      "method": "auto"
+    },
+    "F.Courtyard": {
+      "kicad_layer": "F.CrtYd",
+      "method": "auto"
+    },
+    "Inner1": {
+      "kicad_layer": "In1.Cu",
+      "method": "auto"
+    },
+    "Inner2": {
+      "kicad_layer": "In2.Cu",
+      "method": "auto"
+    },
+    "LeadShapeLayer": {
+      "kicad_layer": "User.4",
+      "method": "auto"
+    },
+    "Margin": {
+      "kicad_layer": "Margin",
+      "method": "auto"
+    },
+    "Mechanical": {
+      "kicad_layer": "Eco2.User",
+      "method": "auto"
+    },
+    "Multi-Layer": {
+      "kicad_layer": "Eco1.User",
+      "method": "auto"
+    },
+    "Rescue": {
+      "kicad_layer": "Rescue",
+      "method": "auto"
+    },
+    "TopLayer": {
+      "kicad_layer": "F.Cu",
+      "method": "auto"
+    },
+    "TopPasteMaskLayer": {
+      "kicad_layer": "F.Paste",
+      "method": "auto"
+    },
+    "TopSilkLayer": {
+      "kicad_layer": "F.SilkS",
+      "method": "auto"
+    },
+    "TopSolderMaskLayer": {
+      "kicad_layer": "F.Mask",
+      "method": "auto"
+    },
+    "User.2": {
+      "kicad_layer": "User.2",
+      "method": "auto"
+    },
+    "User.Comments": {
+      "kicad_layer": "Cmts.User",
+      "method": "auto"
+    }
+  },
+  "output_file": "DriveShield_v1_8.kicad_pcb",
+  "source_file": "PCB_pcb_drive_2026-08-14.json",
+  "source_format": "EasyEDA / JLCEDA Std",
+  "statistics": {
+    "footprints": 112,
+    "tracks": 420,
+    "vias": 442,
+    "zones": 29
+  },
+  "warnings": []
+}

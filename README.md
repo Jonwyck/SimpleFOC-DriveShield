@@ -1,3 +1,5 @@
+> Fork additions: [v1.8 pinout and jumper guide](Design/DriveShield_pinout.org), [HTML guide](Design/DriveShield_pinout.html), and [initial KiCad 10 import](KiCad/README.org). The KiCad copy needs ERC/DRC and library/linkage cleanup before fabrication. Original EasyEDA design files remain unchanged.
+
 # *Simple**FOC*** ***Drive**Shield* *v1.8*
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=blue) 
